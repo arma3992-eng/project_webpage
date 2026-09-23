@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>과제 포트폴리오</title>
+
+    <!-- CSS 연결 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         1. 상단 메뉴
+    ========================== -->
+    <header>
+        <div class="logo">
+            과제 포트폴리오
+        </div>
+
+        <nav>
+            <a href="#home">홈</a>
+            <a href="#projects">과제 목록</a>
+            <a href="#about">소개</a>
+            <a href="#contact">연락처</a>
+        </nav>
+    </header>
+
+
+    <!-- =========================
+         2. 메인 소개 영역
+    ========================== -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <p class="small-title">
+                배우고, 만들고, 성장하는 기록
+            </p>
+
+            <h1>
+                과제 포트폴리오
+            </h1>
+
+            <h2>
+                HTML · CSS · JavaScript 학습 결과물
+            </h2>
+
+            <p>
+                웹 개발을 배우며 만든 여러 가지 과제를
+                모아놓은 공간입니다.
+            </p>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <!-- 나중에 이미지 추가 예정 -->
+            <div class="image-box">
+                Portfolio
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         3. 과제 목록
+    ========================== -->
+    <section id="projects" class="projects">
+
+        <h2>
+            과제 목록
+        </h2>
+
+        <p>
+            지금까지 만든 웹 페이지들을 확인해 보세요.
+        </p>
+
+
+        <!-- 카테고리 버튼 -->
+        <div class="category-buttons">
+
+            <button data-filter="all">전체</button>
+            <button data-filter="html">HTML</button>
+            <button data-filter="css">CSS</button>
+            <button data-filter="javascript">JavaScript</button>
+            <button data-filter="etc">기타</button>
+
+        </div>
+
+
+        <!-- 과제 카드 전체 영역 -->
+        <div class="project-grid">
+
+
+            <!-- 과제 1 -->
+            <div class="project-card" data-category="html">
+
+                <button class="project-image" data-filter="html">
+                    HTML
+                </button>
+
+                <h3>
+                    1. HTML 기초
+                </h3>
+
+                <p>
+                    웹 페이지의 기본 구조와
+                    주요 HTML 태그를 학습한 과제입니다.
+                </p>
+
+                <button>
+                    자세히 보기
+                </button>
+
+            </div>
+
+
+            <!-- 과제 2 -->
+            <div class="project-card" data-category="css">
+
+                <button class="project-image" data-filter="css">
+                    CSS
+                </button>
+
+                <h3>
+                    2. CSS 레이아웃
+                </h3>
+
+                <p>
+                    CSS를 이용해 웹페이지의
+                    레이아웃과 디자인을 연습했습니다.
+                </p>
+
+                <button>
+                    자세히 보기
+                </button>
+
+            </div>
+
+
+            <!-- 과제 3 -->
+            <div class="project-card" data-category="javascript">
+
+                <button class="project-image" data-filter="javascript">
+                    javascript
+                </button>
+
+                <h3>
+                    3. JavaScript 기초
+                </h3>
+
+                <p>
+                    JavaScript의 기본 문법과
+                    간단한 기능을 구현한 과제입니다.
+                </p>
+
+                <button>
+                    자세히 보기
+                </button>
+
+            </div>
+
+
+            <!-- 과제 4 -->
+            <div class="project-card" data-category="etc">
+
+                <button class="project-image" data-filter="etc">
+                    Gallery
+                </button>
+
+                <h3>
+                    4. Explore Gallery
+                </h3>
+
+                <p>
+                    여러 이미지를 카드 형태로
+                    보여주는 갤러리 프로젝트입니다.
+                </p>
+
+                <button>
+                    자세히 보기
+                </button>
+
+            </div>
+
+
+            <!-- 과제 5 -->
+            <div class="project-card" data-category="etc">
+
+                <button class="project-image" data-filter="etc">
+                    Image
+                </button>
+
+                <h3>
+                    5. 이미지 과제
+                </h3>
+
+                <p>
+                    이미지 배치와 간단한
+                    레이아웃 구성을 연습했습니다.
+                </p>
+
+                <button>
+                    자세히 보기
+                </button>
+
+            </div>
+
+
+            <!-- 과제 6 -->
+            <div class="project-card" data-category="etc">
+
+                <button class="project-image" data-filter="etc">
+                    AI
+                </button>
+                <h3>
+                    6. AI 프로젝트
+                </h3>
+
+                <p>
+                    AI 도구를 활용해 만든
+                    웹 프로젝트입니다.
+                </p>
+
+                <button>
+                    자세히 보기
+                </button>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         4. 소개
+    ========================== -->
+    <section id="about" class="about">
+
+        <h2>
+            About
+        </h2>
+
+        <p>
+            HTML, CSS, JavaScript를 배우며
+            만든 결과물을 기록하는 포트폴리오입니다.
+        </p>
+
+    </section>
+
+
+    <!-- =========================
+         5. 연락처
+    ========================== -->
+    <section id="contact" class="contact">
+
+        <h2>
+            Contact
+        </h2>
+
+        <p>
+            GitHub와 이메일 정보를 표시할 수 있습니다.
+        </p>
+
+    </section>
+
+
+    <!-- =========================
+         6. 아래쪽 영역
+    ========================== -->
+    <footer>
+
+        <p>
+            © 2026 My Portfolio
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript 연결 -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
